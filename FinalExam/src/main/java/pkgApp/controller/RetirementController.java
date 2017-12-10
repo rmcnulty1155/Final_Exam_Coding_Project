@@ -55,13 +55,6 @@ public class RetirementController implements Initializable {
 		
     private boolean calculateClicked = false;
     private boolean clearClicked = false;
-
-    
-	private Retirement retirement;
-    public void setRetirement(Retirement retirement) {
-        this.retirement = retirement;
-   
-    }
 	
     public boolean iscalculateClicked() {
         return calculateClicked;
